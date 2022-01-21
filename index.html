@@ -14,7 +14,7 @@
             <!-- ------------------------------------------------------
                         Navbar Strat Area 
                     ----------------------------------------------------------->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container">
                   <a class="navbar-brand" href="#">
                       <img src="images/logo.png" alt="">
@@ -28,13 +28,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                       </li>
                       
                   </div>
@@ -132,7 +132,7 @@
 
           <!-- Soes Area -->
 
-          <section class="container">
+          <section class="container" id="shoes">
               <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col ">
@@ -180,7 +180,7 @@
 
           <!-- Backpack Area  -->
 
-          <section class="container mt-5">
+          <section class="container my-5" id="backpack">
               <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col ">
@@ -228,9 +228,25 @@
               </div>
           </section>
 
+          <!-- Subscribe Area  -->
+
+          <section style="height: 300px;" class="container rounded-3 my-5 bg-info d-flex justify-content-center align-items-center" id="subscribe">
+            <div>
+              <h2>LET'S STAY IN TOUCH</h2>
+              <h5>Get updates on sales, specials and more</h5>
+              <input type="text" placeholder="Your E-mail">
+              <br>
+              <button class="btn-warning">Subscribe</button>
+            </div>
+          </section>
 
     </main>
-
+    <!-- footer area  -->
+    <footer>
+      <div class="container text-center mt-5">
+        <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+      </div>
+    </footer>
 
     <!-- js stylesheet -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
